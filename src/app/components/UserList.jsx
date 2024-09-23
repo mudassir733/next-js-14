@@ -9,6 +9,7 @@ async function fetchUsers() {
     
     const data = await res.json();
     return data;
+
   }
   
   export default async function UserList() {
